@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(/pfofile.png.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-div{
+    height: 100%;
+    background-image: linear-gradient(rgba(49, 49, 49, 0.644), rgba(22, 22, 22, 0.829));
+}
+
+
+.man-section{
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 0 50px;
+    box-shadow: 0 0 300px rgb(238, 238, 238);
+}
+
+.logo{
+    border-radius: 50%;
+    background-color: red; 
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+/* .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-position: top;
+    background-size: cover;
+} */
+
+h2{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+form{
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    padding-top: 60px;
+}
+
+p{
+    font-size: 18PX;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+}
+input{
+    width: 100%;
+    padding: 8px 3px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(192, 192, 192, 0.548);
+    margin-top: 10px;
+    /* background-color: ; */
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    margin-bottom:20px;
+    /* padding-left: 5px; */
+}
+
+input::-webkit-inner-spin-button{
+    /* visibility: hidden;s */
+    display: none;
+}
+
+
+input::placeholder{
+    color: rgba(192, 192, 192, 0.527);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+/* input::-webkit-inner-spin-button{
+    display: none;
+} */
+
+
+button{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 13px 0px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 35px red;
+    text-shadow: 5px 5px 50px rgb(45, 255, 4);
+    transition: 1s;
+}
+
+/* button:hover{
+    transform: rotate(360deg) scale(1,1);
+} */
+
+
+button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 35px rgb(255, 255, 255);
+    box-shadow: inset(red);
+}
